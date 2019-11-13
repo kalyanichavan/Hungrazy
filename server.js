@@ -16,6 +16,9 @@ app.use(express.json());
 // app.use("/admin",adminRoute);
 // app.use("/employee",empRoute);
 
+app.get("/",(res,req)=>{
+    console.log("kalyni is good girl");
+})
 
 app.listen(5000,function(){
     console.log("server started");
