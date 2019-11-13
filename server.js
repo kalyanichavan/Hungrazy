@@ -2,7 +2,7 @@ var express=require("express");
 var mysql=require("mysql");
 //var adminRoute=require("./admin");
 //var empRoute=require("./emp");
-//var app=express();
+var app=express();
 
 
 app.use(function(req, res, next) {
