@@ -1,7 +1,7 @@
 var express=require("express");
 var mysql=require("mysql");
 var app=express();
-
+var mysql=require("mysql");
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
