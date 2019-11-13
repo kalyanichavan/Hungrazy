@@ -13,8 +13,7 @@ app.use(function(req, res, next) {
 });
 
 app.use(express.json());
-// app.use("/admin",adminRoute);
-// app.use("/employee",empRoute);
+
 
 app.get("/",(res,req)=>{
     console.log("kalyni is good girl");
